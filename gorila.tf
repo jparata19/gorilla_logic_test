@@ -104,7 +104,7 @@ resource "aws_security_group" "elbsg" {
 }
 
 resource "aws_instance" "jenkins" {
-  ami           = "ami-09ec94dc425ff78b3"
+  ami           = "ami-08511356d13eb00b9"
   instance_type = "t2.micro"
   key_name = "gorilla"
   subnet_id = aws_subnet.private_subnet.id
